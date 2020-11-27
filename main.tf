@@ -1,5 +1,5 @@
 provider "google" {
- credentials = file("CREDENTIALS_FILE.json")
- project     = "flask-app-211918"
+ credentials = file("credentials.json")
+ project     = "oval-turbine-285514"
  region      = "us-west1"
 }
